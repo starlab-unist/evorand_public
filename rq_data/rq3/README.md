@@ -1,5 +1,3 @@
-# RQ3
-
 # Introduction
 
 This data is the data used when creating RQ3 and consists of a csv file.
@@ -24,3 +22,19 @@ ID.v : ID of Versions. Deprecated versions are already deleted.
 00-09 : Test ID. 1 means that test ID found the test, 0 is vice versa.
 
 Detection : If there is at least one test ID that found at least one test, then “Yes” is written. If not, “No” is written.
+
+# Making Table
+
+## For Table 4
+
+### Number of Bugs
+
+The number of ‘Yes’ in each CSV file.
+
+### Percentage Found in 240 Seconds
+
+It simply shows the percentage of bugs already found in 240 seconds out of bugs found by the end of 600 seconds. The equation is:
+
+$$
+\frac{Number\ of\ Bugs\ Found\ in\ EvoRand\ 240s}{Number\ of\ Bugs\ Found\ in\ EvoRand\ 600s}\ \times\ 100
+$$
