@@ -25,11 +25,11 @@ The structure of the header is:
 
 **Count** : Counts how many test ID found the test.
 
-# Making Table
+## Making Table
 
-## For Table 3
+### For Table 3
 
-### Likelihood
+#### Likelihood
 
 The likelihood is calculated as:
 
@@ -41,7 +41,7 @@ $Count$ is from the value of Count column of CSV file, and  $Total$ is from the 
 
 We define the likelihood as the proportion of detected IDs out of total test IDs. In this equation, we do the experiment with 10 tests per version, hence  $\\#\ of\ Tests\ per\ Version$ would be 10.
 
-### Improvement Rate
+#### Improvement Rate
 
 For **RD→ER**, it is calculated as:
 
@@ -56,3 +56,9 @@ $$
 $$
 
 RD means Randoop, ES means EvoSuite, and ER means EvoRand.
+
+## Findings
+
+### Finding 3
+
+$\text{E\scriptsize VO\normalsize R\scriptsize AND}\$  generates tests that detect bugs more consistently over multiple generations than Randoop and EvoSuite. $\text{E\scriptsize VO\normalsize R\scriptsize AND}\$ manifests a bug detection rate that is approximately 178% higher than Randoop and 13% higher than EvoSuite throughout all the projects.
