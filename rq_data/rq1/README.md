@@ -25,19 +25,19 @@ The structure of the header is:
 
 **Detection** : If there is at least one test ID that found at least one test, then “Yes” is written. If not, “No” is written.
 
-# Making Table
+## Making Table
 
-## For Table 1
+### For Table 1
 
-### Total
+#### Total
 
 The number of all versions that is not deprecated. All the CSV file in the same subject have equal amount of rows, hence the total would be the number of rows of one of the CSV file in the subject except the header row.
 
-### Number of Bugs
+#### Number of Bugs
 
 The number of ‘Yes’ in each CSV file.
 
-### Detection Rate
+#### Detection Rate
 
 Detection rate is calculated as:
 
@@ -47,7 +47,7 @@ $$
 
 It is calculated for each tools at each subject. In this case, $Number\ of\ Bugs$ indicates the number of bugs of tool that the tool had detected.
 
-### Improvement Rate
+#### Improvement Rate
 
 For **RD→ER**, it is calculated as:
 
@@ -63,9 +63,9 @@ $$
 
 RD means Randoop, ES means EvoSuite, and ER means EvoRand.
 
-## For Table 2
+### For Table 2
 
-### Finding Uniqueness
+#### Finding Uniqueness
 
 For each CSV files that is in period of 600 seconds in each subject, we compare each versions and check the sameness of detection.
 
@@ -81,3 +81,13 @@ For checking the sameness of detection, We label each versions with flags. There
 After labeling process, we only count for the label that has one 1 and two 0. We call this process ‘Filtering’. In other words, we only count the version that is unique for each tool. In the example above, we take ID.v 1 and discard ID.v 2.
 
 The filtered labels through last process called ‘Classify’. The number is counted by increasing the value of the corresponding tool according to the position of each flag.
+
+## Findings
+
+### Finding 1
+
+$\text{E\scriptsize VO\normalsize R\scriptsize AND}\$ increases the bug detection ability of the base tests by more than 12.8%, surpassing Randoop by 126.7% and EvoSuite by 9% in the same time budget.
+
+### Finding 2
+
+$\text{E\scriptsize VO\normalsize R\scriptsize AND}\$ detects almost twice of unique bugs that Randoop and EvoSuite are unable to detect.
