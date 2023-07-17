@@ -34,12 +34,12 @@ The structure of the header is:
 The likelihood is calculated as:
 
 $$
-\frac{\sum_{}^{}Count}{Total\ \times\space\#\ of\ Tests\ per\ Version}\ \times\ 100
+\frac{\sum_{} Count}{Total\ \times\space \\#\ of\ Tests\ per\ Version}\ \times\ 100
 $$
 
 $Count$ is from the value of Count column of CSV file, and  $Total$ is from the number of the version except deprecated version, same as RQ1 definition. 
 
-We define the likelihood as the proportion of detected IDs out of total test IDs. In this equation, we do the experiment with 10 tests per version, hence  $\#\ of\ Tests\ per\ Version$ would be 10.
+We define the likelihood as the proportion of detected IDs out of total test IDs. In this equation, we do the experiment with 10 tests per version, hence  $\\#\ of\ Tests\ per\ Version$ would be 10.
 
 ### Improvement Rate
 
