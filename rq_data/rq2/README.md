@@ -34,7 +34,7 @@ The structure of the header is:
 The likelihood is calculated as:
 
 $$
-\frac{\sum_{}^{}Count}{Total\ \times\ \#\ of\ Tests\ per\ Version}\ \times\ 100
+\frac{\sum_{}^{}Count}{Total\ \times\space\#\ of\ Tests\ per\ Version}\ \times\ 100
 $$
 
 $Count$ is from the value of Count column of CSV file, and  $Total$ is from the number of the version except deprecated version, same as RQ1 definition. 
