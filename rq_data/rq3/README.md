@@ -23,18 +23,24 @@ ID.v : ID of Versions. Deprecated versions are already deleted.
 
 Detection : If there is at least one test ID that found at least one test, then “Yes” is written. If not, “No” is written.
 
-# Making Table
+## Making Table
 
-## For Table 4
+### For Table 4
 
-### Number of Bugs
+#### Number of Bugs
 
 The number of ‘Yes’ in each CSV file.
 
-### Percentage Found in 240 Seconds
+#### Percentage Found in 240 Seconds
 
 It simply shows the percentage of bugs already found in 240 seconds out of bugs found by the end of 600 seconds. The equation is:
 
 $$
 \frac{Number\ of\ Bugs\ Found\ in\ EvoRand\ 240s}{Number\ of\ Bugs\ Found\ in\ EvoRand\ 600s}\ \times\ 100
 $$
+
+## Findings
+
+### Finding 4
+
+$\text{E\scriptsize VO\normalsize R\scriptsize AND}\$ 's approach is highly efficient, detecting over 99% of the discovered bugs within the initial 240 seconds time budget.
