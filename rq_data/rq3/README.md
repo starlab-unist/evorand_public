@@ -35,12 +35,10 @@ The number of ‘Yes’ in each CSV file.
 
 It simply shows the percentage of bugs already found in 240 seconds out of bugs found by the end of 600 seconds. The equation is:
 
-$$
-\frac{Number\ of\ Bugs\ Found\ in\ EvoRand\ 240s}{Number\ of\ Bugs\ Found\ in\ EvoRand\ 600s}\ \times\ 100
-$$
+![240detect](/md_img/rq3_240detect_gray.png)
 
 ## Findings
 
 ### Finding 4
 
-$\text{E\scriptsize VO\normalsize R\scriptsize AND}\$ 's approach is highly efficient, detecting over 99% of the discovered bugs within the initial 240 seconds time budget.
+EvoRand's approach is highly efficient, detecting over 99% of the discovered bugs within the initial 240 seconds time budget.
