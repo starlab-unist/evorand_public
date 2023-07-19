@@ -33,9 +33,7 @@ The structure of the header is:
 
 The likelihood is calculated as:
 
-$$
-\frac{\sum_{} Count}{Total\ \times\space \\#\ of\ Tests\ per\ Version}\ \times\ 100
-$$
+![likelihood](/md_img/rq2_likelihood_gray.png)
 
 $Count$ is from the value of Count column of CSV file, and  $Total$ is from the number of the version except deprecated version, same as RQ1 definition. 
 
@@ -45,15 +43,11 @@ We define the likelihood as the proportion of detected IDs out of total test IDs
 
 For **RD→ER**, it is calculated as:
 
-$$
-\frac{Likelihood\ of\ ER\ -\ Likelihood\ of\ RD}{Likelihood\ of\ RD}\ \times\ 100
-$$
+![improvement1](/md_img/rq2_improvement_gray.png)
 
 For **ES→ER,** it is calculated as:
 
-$$
-\frac{Likelihood\ of\ ER\ -\ Likelihood\ of\ ES}{Likelihood\ of\ ES}\ \times\ 100
-$$
+![improvement2](/md_img/rq2_improvement2_gray.png)
 
 RD means Randoop, ES means EvoSuite, and ER means EvoRand.
 
@@ -61,4 +55,4 @@ RD means Randoop, ES means EvoSuite, and ER means EvoRand.
 
 ### Finding 3
 
-$\text{E\scriptsize VO\normalsize R\scriptsize AND}\$  generates tests that detect bugs more consistently over multiple generations than Randoop and EvoSuite. $\text{E\scriptsize VO\normalsize R\scriptsize AND}\$ manifests a bug detection rate that is approximately 178% higher than Randoop and 13% higher than EvoSuite throughout all the projects.
+EvoRand generates tests that detect bugs more consistently over multiple generations than Randoop and EvoSuite. $\text{E\scriptsize VO\normalsize R\scriptsize AND}\$ manifests a bug detection rate that is approximately 178% higher than Randoop and 13% higher than EvoSuite throughout all the projects.
