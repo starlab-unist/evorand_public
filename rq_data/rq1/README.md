@@ -41,7 +41,7 @@ The number of ‘Yes’ in each CSV file.
 
 Detection rate is calculated as:
 
-![detection_rate](/md_img/rq1_detectionRate_gray.png)
+![detection_rate](https://github.com/starlab-unist/evorand_public/blob/main/md_img/rq1_detectionRate_gray.png?raw=true)
 
 It is calculated for each tools at each subject. In this case, $Number\ of\ Bugs$ indicates the number of bugs of tool that the tool had detected.
 
@@ -49,11 +49,11 @@ It is calculated for each tools at each subject. In this case, $Number\ of\ Bugs
 
 For **RD→ER**, it is calculated as:
 
-![improvement1](/md_img/rq1_improvement_gray.png)
+![improvement1](https://github.com/starlab-unist/evorand_public/blob/main/md_img/rq1_improvement_gray.png)
 
 For **ES→ER,** it is calculated as:
 
-![improvement2](/md_img/rq1_improvement2_gray.png)
+![improvement2](https://github.com/starlab-unist/evorand_public/blob/main/md_img/rq1_improvement2_gray.png)
 
 RD means Randoop, ES means EvoSuite, and ER means EvoRand.
 
