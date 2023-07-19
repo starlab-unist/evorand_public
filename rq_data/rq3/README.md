@@ -35,7 +35,7 @@ The number of ‘Yes’ in each CSV file.
 
 It simply shows the percentage of bugs already found in 240 seconds out of bugs found by the end of 600 seconds. The equation is:
 
-![240detect](/md_img/rq3_240detect_gray.png)
+![240detect](https://github.com/starlab-unist/evorand_public/blob/main/md_img/rq3_240detect_gray.png?raw=true)
 
 ## Findings
 
