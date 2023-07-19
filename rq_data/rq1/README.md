@@ -41,9 +41,7 @@ The number of ‘Yes’ in each CSV file.
 
 Detection rate is calculated as:
 
-$$
-\frac{Number\ of\ Bugs}{Total}\ \times 100
-$$
+![detection_rate](/md_img/rq1_detectionRate_gray.png)
 
 It is calculated for each tools at each subject. In this case, $Number\ of\ Bugs$ indicates the number of bugs of tool that the tool had detected.
 
@@ -51,15 +49,11 @@ It is calculated for each tools at each subject. In this case, $Number\ of\ Bugs
 
 For **RD→ER**, it is calculated as:
 
-$$
-\frac{Number\ of\ Bugs\ of\ ER\ -\ Number\ of\ Bugs\ of\ RD}{Number\ of\ Bugs\ of\ RD}\ \times\ 100
-$$
+![improvement1](/md_img/rq1_improvement_gray.png)
 
 For **ES→ER,** it is calculated as:
 
-$$
-\frac{Number\ of\ Bugs\ of\ ER\ -\ Number\ of\ Bugs\ of\ ES}{Number\ of\ Bugs\ of\ ES}\ \times\ 100
-$$
+![improvement2](/md_img/rq1_improvement2_gray.png)
 
 RD means Randoop, ES means EvoSuite, and ER means EvoRand.
 
@@ -86,8 +80,8 @@ The filtered labels through last process called ‘Classify’. The number is co
 
 ### Finding 1
 
-$\text{E\scriptsize VO\normalsize R\scriptsize AND}\$ increases the bug detection ability of the base tests by more than 12.8%, surpassing Randoop by 126.7% and EvoSuite by 9% in the same time budget.
+EvoRand increases the bug detection ability of the base tests by more than 12.8%, surpassing Randoop by 126.7% and EvoSuite by 9% in the same time budget.
 
 ### Finding 2
 
-$\text{E\scriptsize VO\normalsize R\scriptsize AND}\$ detects almost twice of unique bugs that Randoop and EvoSuite are unable to detect.
+EvoRand detects almost twice of unique bugs that Randoop and EvoSuite are unable to detect.
