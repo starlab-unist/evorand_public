@@ -33,7 +33,7 @@ The structure of the header is:
 
 The likelihood is calculated as:
 
-![likelihood](/md_img/rq2_likelihood_gray.png)
+![likelihood](https://github.com/starlab-unist/evorand_public/blob/main/md_img/rq2_likelihood_gray.png?raw=true)
 
 $Count$ is from the value of Count column of CSV file, and  $Total$ is from the number of the version except deprecated version, same as RQ1 definition. 
 
@@ -43,11 +43,11 @@ We define the likelihood as the proportion of detected IDs out of total test IDs
 
 For **RD→ER**, it is calculated as:
 
-![improvement1](/md_img/rq2_improvement_gray.png)
+![improvement1](https://github.com/starlab-unist/evorand_public/blob/main/md_img/rq2_improvement_gray.png?raw=true)
 
 For **ES→ER,** it is calculated as:
 
-![improvement2](/md_img/rq2_improvement2_gray.png)
+![improvement2](https://github.com/starlab-unist/evorand_public/blob/main/md_img/rq2_improvement2_gray.png?raw=true)
 
 RD means Randoop, ES means EvoSuite, and ER means EvoRand.
 
